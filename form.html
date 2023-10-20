@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="formass.css">
+</head>
+<body>
+        <form>
+            <fieldset class="field">
+                <div class="header">
+                <h3>Wellington Womens League</h3>
+                <p><b><u>Registration Form</u></b></p>
+                </div>
+                <br>
+                <div class="user-input">
+                <input type="text" id="first" placeholder="First Name" required>
+                
+                <input type="text" id="last" placeholder="Last Name" required>
+                <br>
+                <br>
+                <input type="email" id="email" placeholder="Enter your Email" required>
+                <br>
+                <br>
+                <input type="number" id="cp" placeholder="Mobile Number" required>
+                <br>
+                <br>
+                <input type="password" id="password" placeholder="Password" required>
+                <br>
+                <br>
+                <input type="password" id="confirm" placeholder="Confirm Password" required>
+                <br>
+                <br>
+                <select name="City" required>
+                    <option>Select City</option>
+                    <option>Batangas</option>
+                    <option>Cavite</option>
+                    <option>Laguna</option>
+                    <option>Rizal</option>
+                </select>
+                <br>
+                <br>
+                </div>
+                <div class="gender">
+                <p><b>Gender</b></p>
+                </div>
+
+                <div class="gender-option">
+                <b><input type="radio" id="male" style="cursor: pointer;" >Male</b>
+                <b><input type="radio" id="female" style="cursor: pointer;" >Female</b>
+                <b><input type="radio" id="not" style="cursor: pointer;">Prefer not to say</b>
+                </div>
+
+                <br>
+                <div class="terms">
+                <input type="checkbox" name="terms">I accept the <a href="#">Terms of Use</a>
+                </div>
+                <br>
+                <button class="register">REGISTER NOW</button>
+                <br>
+                <br>
+                <div class="acnt"><p>Already have an account?</p>
+                <a  href="#">Log in</a>
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>
